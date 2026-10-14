@@ -161,7 +161,7 @@ st.markdown("""
 with st.sidebar:
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image("HEDNO LOGO.png", use_container_width=True)
+        st.image("recommended_logo.png", use_container_width=True)
     st.write("")
 
     is_chat_active = st.session_state.nav_selection == "👩‍💻 Ψηφιακός Βοηθός"
